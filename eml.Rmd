@@ -29,10 +29,18 @@ why-how of a dataset. It captures broad information like the title of a dataset 
 of methods, in addition to very specific information, such as file checksums or definitions for
 column names in tabular data.
 
+Let's walk through a some broad metadata guidelines and best practices [here](http://training.arcticdata.io/materials/arctic-data-center-training/03-best-practices-data-metadata.pdf)
+
 # Metadata Standards
 
 While some metadata is better than none, creating **structured** metadata according to a metadata
-standard has a number of benefits. A metadata standard is a defined structure that allows information
+standard has a number of benefits. Here are a few:
+
+* Machine readable
+* Semantically consistent
+* 
+  
+A metadata standard is a defined structure that allows information
 about a dataset to be understood in a semantically consistent way. Three common metadata standards used
 in the environmental science community are:
 
@@ -79,17 +87,6 @@ lines are optional, whlie boxes with solid lines are required.
 
 ![](images/schema.png)
 
-All of this might sound confusing, and like it might not be any more helpful than unstructured metadata
-like readme documents, but implementing a metadata standard has a number of advantages. Most of these
-stem from the fact that the XML document created is machine readable - which enables a considerable amount
-of functionality.
-
-* Display
-  - Render XML content on a [webpage](https://knb.ecoinformatics.org/view/doi:10.5063/F1NC5ZGW)
-* Search
-  - Discover datasets pertinent to your research interests
-* Analyze
-  - Semantic consistency of information allows for meta-analysis
 
 # Creating Metadata in R
 
